@@ -89,7 +89,7 @@ function Header1() {
                                         <>
                                             <NavigationMenuLink asChild>
                                                 <Button variant="ghost" asChild>
-                                                    <Link href={item.href}>{item.title}</Link>
+                                                    <Link href={item.href} className="w-full">{item.title}</Link>
                                                 </Button>
                                             </NavigationMenuLink>
                                         </>
