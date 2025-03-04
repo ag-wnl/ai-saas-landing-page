@@ -2,6 +2,7 @@
 import { Hero } from "@/components/ui/animated-hero";
 import { Features } from "@/components/ui/features-section";
 import { Pricing } from "@/components/ui/pricing-cards";
+import { LandingFooter } from "@/components/ui/landing-footer";
 
 const Index = () => {
   return (
@@ -9,6 +10,7 @@ const Index = () => {
       <Hero />
       <Features />
       <Pricing />
+      <LandingFooter />
     </div>
   );
 };
