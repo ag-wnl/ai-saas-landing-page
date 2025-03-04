@@ -1,12 +1,12 @@
 
 import { Hero } from "@/components/ui/animated-hero";
 
-const Index = () => {
+function HeroDemo() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="block">
       <Hero />
     </div>
   );
-};
+}
 
-export default Index;
+export { HeroDemo };
