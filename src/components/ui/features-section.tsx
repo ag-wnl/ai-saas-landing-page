@@ -19,12 +19,12 @@ function Features() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 pt-20">
             {features.map((feature, index) => (
-              <div key={index} className="flex flex-col gap-4 items-start">
+              <div key={index} className="flex flex-col gap-4 items-start text-left">
                 <div className="p-3 rounded-full bg-primary/10">
                   {feature.icon}
                 </div>
-                <h3 className="text-xl font-semibold">{feature.title}</h3>
-                <p className="text-muted-foreground">{feature.description}</p>
+                <h3 className="text-xl font-semibold text-left">{feature.title}</h3>
+                <p className="text-muted-foreground text-left">{feature.description}</p>
                 <ul className="space-y-2 mt-2">
                   {feature.benefits.map((benefit, idx) => (
                     <li key={idx} className="flex items-start gap-2">
